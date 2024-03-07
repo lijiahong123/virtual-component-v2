@@ -13,9 +13,10 @@ npm install virtual-component-v2 -S
 
 ```js
 import Vue from "vue";
-import App from "./App.vue";
+
 // 引入Element的样式
 import "element-ui/lib/theme-chalk/index.css";
+
 // 引入虚拟组件
 import virtualComponentV2 from "virtual-component-v2";
 import "virtual-component-v2/dist/virtualComponentV2.css";
