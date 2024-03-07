@@ -1,28 +1,40 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- list -->
+    <list />
+
+    <!-- select -->
+    <select-v2 />
+
+    <!-- tree -->
+    <treeV2 />
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import list from '@/components/list.vue'
+import selectV2 from '@/components/select.vue'
+import treeV2 from '@/components/tree.vue'
 export default {
+  components: { list, selectV2 ,treeV2},
   name: 'App',
-  components: {
-    HelloWorld
+  data() {
+    return {}
   }
 }
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-box {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #000;
+  border-radius: 4px;
 }
 </style>

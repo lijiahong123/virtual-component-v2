@@ -1,19 +1,30 @@
 # virtual-component-v2
 
-## Project setup
-```
-npm install
+依赖于`Element-ui`的Vue2虚拟组件, 包含 `el-tree-v2`, `el-select-v2`, `el-list-v2`三个虚拟组件, 其中 `el-tree-v2`, `el-select-v2` 完全支持`element-ui` tree组件与 select组件的所有属性
+
+## Install
+
+```bash
+npm install element-ui -S
+npm install virtual-component-v2 -S
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+### Use
+
+```js
+import Vue from "vue";
+import App from "./App.vue";
+// 引入Element的样式
+import "element-ui/lib/theme-chalk/index.css";
+// 引入虚拟组件
+import virtualComponentV2 from "virtual-component-v2";
+import "virtual-component-v2/dist/virtualComponentV2.css";
+
+Vue.use(virtualComponentV2);
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 组件使用文档
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[虚拟列表(el-list-v2)](./docs/Vlist.md).
+[虚拟下拉框(el-select-v2)](./docs/VSelect.md).
+[虚拟树(el-tree-v2)](./docs/VTree.md).
