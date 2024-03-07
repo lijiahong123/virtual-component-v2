@@ -25,6 +25,6 @@ Vue.use(virtualComponentV2);
 
 ## 组件使用文档
 
-[虚拟列表(el-list-v2)](./docs/Vlist.md).
-[虚拟下拉框(el-select-v2)](./docs/VSelect.md).
-[虚拟树(el-tree-v2)](./docs/VTree.md).
+- [虚拟列表(el-list-v2)](./docs/Vlist.md).
+- [虚拟下拉框(el-select-v2)](./docs/VSelect.md).
+- [虚拟树(el-tree-v2)](./docs/VTree.md).
