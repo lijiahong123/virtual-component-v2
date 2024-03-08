@@ -38331,14 +38331,9 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 !function() {
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  ElListV2: function() { return /* reexport */ VList; },
-  ElSelectV2: function() { return /* reexport */ VSelect; },
-  ElTreeV2: function() { return /* reexport */ VTree; },
   "default": function() { return /* binding */ entry_lib; }
 });
 
@@ -42722,6 +42717,7 @@ if (typeof window !== "undefined" && window.Vue) {
   package_install(window.Vue);
 }
 
+// export { ElSelectV2, ElListV2, ElTreeV2 };
 /* harmony default export */ var package_0 = ({
   install: package_install,
   ElSelectV2: VSelect,
@@ -42735,6 +42731,7 @@ if (typeof window !== "undefined" && window.Vue) {
 
 
 }();
+__webpack_exports__ = __webpack_exports__["default"];
 /******/ 	return __webpack_exports__;
 /******/ })()
 ;

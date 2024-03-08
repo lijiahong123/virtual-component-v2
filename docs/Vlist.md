@@ -2,7 +2,6 @@
 
 用于长列表渲染, 例如接口一次返回了所有列表数据的场景
 
-
 **注意:**
 需要给`el-list-v2`组件的包裹容器一个确切的`height`属性, 否则虚拟滚动功能会失效, 示例见基础用法
 
@@ -30,9 +29,10 @@
 </script>
 ```
 
-## 自定义Item示例 
+## 自定义Item示例
 
 list每一项为复选框
+
 ```html
 <div style="height:300px;">
     <el-checkbox-group v-model="checkList">
@@ -63,6 +63,7 @@ list每一项为复选框
 ```
 
 ## Attributes
+
 |参数|说明|类型|可选值|默认值|
 |--|--|--|--|--|
 |list|数据源|Array|--|`[]`|
@@ -71,8 +72,8 @@ list每一项为复选框
 |itemSize|每一项高度, 单位为px|Number|--|`34`|
 |buffer|虚拟列表预渲染的item数量|Number|--|`10`|
 
-
 ## Scoped Slot
+
 |name|说明|
 |--|--|
 |--|用于自定义渲染每一项数据,具体为 `slot-scoped="{item}"`|

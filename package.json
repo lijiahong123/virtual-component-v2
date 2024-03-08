@@ -1,28 +1,30 @@
 {
   "name": "virtual-component-v2",
-  "version": "0.1.0",
-  "main": "./dist/virtualComponentV2.common.js",
-  "module": "./dist/virtualComponentV2.umd.min.js",
-  "umd": "./dist/virtualComponentV2.umd.min.js",
-  "description": "依赖于`Element-ui`的Vue2虚拟组件, 包含 `el-tree-v2`, `el-select-v2`, `el-list-v2`三个虚拟组件, 其中 `el-tree-v2`, `el-select-v2` 完全支持`element-ui` tree组件与 select组件的所有属性",
+  "version": "0.1.1",
+  "main": "./dist/virtualComponentV2.umd.min.js",
+  "description": "依赖于Element-ui的Vue2虚拟组件, 包含 el-tree-v2, el-select-v2, el-list-v2三个虚拟组件, 其中 el-tree-v2, el-select-v2 完全支持element-ui tree组件与 select组件的所有属性",
   "keywords": [
     "vue虚拟树",
     "vue虚拟列表",
     "vue虚拟下拉框",
+    "虚拟滚动",
+    "虚拟树",
+    "虚拟组件",
     "virtualComponentV2",
     "virtual-tree",
     "el-tree-v2",
     "el-select-v2",
     "el-list-v2"
   ],
-  "author": "1471363285@qq.com",
+  "author": "lijiahong123",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/lijiahong123/virtual-component-v2.git"
   },
   "bugs": {
-    "url": "https://github.com/lijiahong123/virtual-component-v2/issues"
+    "url": "https://github.com/lijiahong123/virtual-component-v2/issues",
+    "email": "1471363285@qq.com"
   },
   "homepage": "https://github.com/lijiahong123/virtual-component-v2/tree/master#readme",
   "scripts": {
@@ -30,18 +32,26 @@
     "build": "vue-cli-service build",
     "lib": "vue-cli-service build --target lib --name virtualComponentV2 ./package/index.js"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "vue": "^2.6.14",
+    "element-ui": "^2.15.14"
+  },
+  "devDependencies": {
     "core-js": "^3.8.3",
     "element-ui": "^2.15.14",
     "lodash": "^4.17.21",
     "vue": "^2.6.14",
-    "vue-virtual-scroller": "^1.1.2"
-  },
-  "devDependencies": {
+    "vue-virtual-scroller": "^1.1.2",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
     "vue-template-compiler": "^2.6.14"
-  }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "docs",
+    "README.md"
+  ]
 }

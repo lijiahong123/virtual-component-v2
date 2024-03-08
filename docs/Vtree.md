@@ -2,7 +2,7 @@
 
 用于多节点tree型数据渲染
 
-> 支持`el-tree`组件的`99.9%`的属性与方法, `Attribute`与`slot` `methods`都与`el-tree`一致, 有一些属性不支持, 也有新加的属性与方法, 具体见 `Attribute` 与 `方法` 表
+> 支持`el-tree`组件的`100%`的属性与方法, `Attribute`与`slot` `methods`都与`el-tree`一致, 有一些属性不支持, 也有新加的属性与方法, 具体见 `Attribute` 与 `方法` 表
 
 **特别提示**
 **需要给tree本身盒子一个具体的height, 或者给其外层包裹容器一个具体height, 虚拟滚动才会生效**
@@ -118,4 +118,4 @@
 
 ## 其他
 
-其他API请查看`element-ui`中`el-tree`组件
+其他API请查看`element-ui`中`el-tree`组件, [传送门](https://element.eleme.io/#/zh-CN/component/tree#attributes)

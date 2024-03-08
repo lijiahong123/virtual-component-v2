@@ -14,7 +14,7 @@ if (typeof window !== "undefined" && window.Vue) {
   install(window.Vue);
 }
 
-export { ElSelectV2, ElListV2, ElTreeV2 };
+// export { ElSelectV2, ElListV2, ElTreeV2 };
 export default {
   install,
   ElSelectV2,
