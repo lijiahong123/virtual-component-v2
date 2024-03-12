@@ -1,6 +1,6 @@
 {
   "name": "virtual-component-v2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./dist/virtualComponentV2.umd.min.js",
   "description": "依赖于Element-ui的Vue2虚拟组件, 包含 el-tree-v2, el-select-v2, el-list-v2三个虚拟组件, 其中 el-tree-v2, el-select-v2 完全支持element-ui tree组件与 select组件的所有属性",
   "keywords": [
