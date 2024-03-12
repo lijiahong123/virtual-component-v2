@@ -1,8 +1,8 @@
 import Vue from "vue";
 import App from "./App.vue";
+import virtualComponentV2 from "virtual-component-v2";
 import "element-ui/lib/theme-chalk/index.css";
-import virtualComponentV2 from "../dist/virtualComponentV2.umd";
-import "../dist/virtualComponentV2.css";
+import "virtual-component-v2/dist/virtualComponentV2.css";
 
 Vue.use(virtualComponentV2);
 

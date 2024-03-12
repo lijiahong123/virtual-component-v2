@@ -33,20 +33,21 @@
     "lib": "vue-cli-service build --target lib --name virtualComponentV2 ./package/index.js"
   },
   "peerDependencies": {
-    "vue": "^2.6.14",
-    "element-ui": "^2.15.14"
+    "element-ui": "^2.15.14",
+    "vue": "^2.6.14"
   },
   "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
     "core-js": "^3.8.3",
     "element-ui": "^2.15.14",
     "lodash": "^4.17.21",
-    "vue": "^2.6.14",
-    "vue-virtual-scroller": "^1.1.2",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "virtual-component-v2": "^0.1.1",
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vue-virtual-scroller": "^1.1.2"
   },
   "files": [
     "dist",
