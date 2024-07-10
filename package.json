@@ -33,7 +33,7 @@
   "homepage": "https://github.com/lijiahong123/virtual-component-v2/tree/master#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --dest example",
+    "build": "vue-cli-service build --dest example --publicPath /",
     "lib": "vue-cli-service build --target lib --name virtualComponentV2 ./package/index.js"
   },
   "peerDependencies": {
