@@ -42693,11 +42693,433 @@ var tree_component = componentNormalizer_normalizeComponent(
 ;// CONCATENATED MODULE: ./package/VTree/index.js
 
 /* harmony default export */ var VTree = (tree);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./package/JsonView/src/JsonView.vue?vue&type=template&id=8ed521fe&scoped=true
+var JsonViewvue_type_template_id_8ed521fe_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _vm.visible ? _c('div', {
+    class: ['json-view-container', _vm.theme, `deep-${_vm.currentDeep}`]
+  }, [_c('div', {
+    class: ['json-view', _vm.length ? 'closeable' : ''],
+    style: {
+      fontSize: _vm.fontSize + 'px',
+      lineHeight: _vm.lineHeight + 'px'
+    }
+  }, [_vm.length && _vm.iconStyle === 'square' ? _c('span', {
+    staticClass: "angle",
+    on: {
+      "click": _vm.toggleClose
+    }
+  }, [_vm.innerclosed ? _c('svg', {
+    staticStyle: {
+      "vertical-align": "middle",
+      "color": "rgb(42, 161, 152)",
+      "height": "1em",
+      "width": "1em"
+    },
+    attrs: {
+      "fill": _vm.iconColors[0],
+      "width": "1em",
+      "height": "1em",
+      "viewBox": "0 0 1792 1792"
+    }
+  }, [_c('path', {
+    attrs: {
+      "d": "M1344 800v64q0 14-9 23t-23 9h-352v352q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-352h-352q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h352v-352q0-14 9-23t23-9h64q14 0 23 9t9 23v352h352q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
+    }
+  })]) : _vm._e(), !_vm.innerclosed ? _c('svg', {
+    staticStyle: {
+      "vertical-align": "middle",
+      "color": "rgb(88, 110, 117)",
+      "height": "1em",
+      "width": "1em"
+    },
+    attrs: {
+      "fill": _vm.iconColors[1],
+      "width": "1em",
+      "height": "1em",
+      "viewBox": "0 0 1792 1792"
+    }
+  }, [_c('path', {
+    attrs: {
+      "d": "M1344 800v64q0 14-9 23t-23 9h-832q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448v-832q0-66-47-113t-113-47h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q119 0 203.5 84.5t84.5 203.5z"
+    }
+  })]) : _vm._e()]) : _vm._e(), _vm.length && _vm.iconStyle === 'circle' ? _c('span', {
+    staticClass: "angle",
+    on: {
+      "click": _vm.toggleClose
+    }
+  }, [!_vm.innerclosed ? _c('svg', {
+    staticStyle: {
+      "vertical-align": "middle",
+      "color": "rgb(1, 160, 228)",
+      "height": "1em",
+      "width": "1em"
+    },
+    attrs: {
+      "viewBox": "0 0 24 24",
+      "fill": _vm.iconColors[0],
+      "preserveAspectRatio": "xMidYMid meet"
+    }
+  }, [_c('path', {
+    attrs: {
+      "d": "M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7"
+    }
+  })]) : _vm._e(), _vm.innerclosed ? _c('svg', {
+    staticStyle: {
+      "vertical-align": "middle",
+      "color": "rgb(161, 106, 148)",
+      "height": "1em",
+      "width": "1em"
+    },
+    attrs: {
+      "viewBox": "0 0 24 24",
+      "fill": _vm.iconColors[1],
+      "preserveAspectRatio": "xMidYMid meet"
+    }
+  }, [_c('path', {
+    attrs: {
+      "d": "M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M13,7H11V11H7V13H11V17H13V13H17V11H13V7Z"
+    }
+  })]) : _vm._e()]) : _vm._e(), _vm.length && _vm.iconStyle === 'triangle' ? _c('span', {
+    staticClass: "angle",
+    on: {
+      "click": _vm.toggleClose
+    }
+  }, [!_vm.innerclosed ? _c('svg', {
+    staticStyle: {
+      "vertical-align": "top",
+      "color": "#3c4047",
+      "height": "1em",
+      "width": "1em",
+      "padding-left": "2px"
+    },
+    attrs: {
+      "viewBox": "0 0 15 15",
+      "fill": _vm.iconColors[0]
+    }
+  }, [_c('path', {
+    attrs: {
+      "d": "M0 5l6 6 6-6z"
+    }
+  })]) : _vm._e(), _vm.innerclosed ? _c('svg', {
+    staticStyle: {
+      "vertical-align": "top",
+      "color": "#3c4047",
+      "height": "1em",
+      "width": "1em",
+      "padding-left": "2px"
+    },
+    attrs: {
+      "viewBox": "0 0 15 15",
+      "fill": _vm.iconColors[1]
+    }
+  }, [_c('path', {
+    attrs: {
+      "d": "M0 14l6-6-6-6z"
+    }
+  })]) : _vm._e()]) : _vm._e(), _c('div', {
+    staticClass: "content-wrap"
+  }, [_c('p', {
+    class: ['first-line', _vm.length > 0 ? 'pointer' : ''],
+    on: {
+      "click": _vm.toggleClose
+    }
+  }, [_vm.jsonKey ? _c('span', {
+    staticClass: "json-key"
+  }, [_vm._v("\""), [_vm._t("key", function () {
+    return [_vm._v(_vm._s(_vm.jsonKey))];
+  }, {
+    "data": {
+      jsonKey: _vm.jsonKey,
+      positionKeys: _vm.parentKeys
+    }
+  })], _vm._v("\": ")], 2) : _vm._e(), _vm.length ? _c('span', [_vm._v(_vm._s(_vm.prefix) + _vm._s(_vm.innerclosed ? "..." + _vm.subfix : "") + " "), _c('span', {
+    staticClass: "json-note"
+  }, [_vm._v(_vm._s(_vm.innerclosed ? _vm.length + " items" : ""))])]) : _vm._e(), !_vm.length ? _c('span', [_vm._v(_vm._s(`${_vm.isArray ? "[]" : "{}"}${_vm.isLast ? "" : ","}`))]) : _vm._e()]), !_vm.innerclosed && _vm.length ? _c('div', {
+    staticClass: "json-body"
+  }, [_vm._l(_vm.items, function (item, index) {
+    return [item.isJSON ? _c('json-view-v2', {
+      key: index,
+      attrs: {
+        "closed": _vm.isClose(),
+        "data": item.value,
+        "jsonKey": item.key,
+        "currentDeep": _vm.templateDeep + 1,
+        "deep": _vm.deep,
+        "iconStyle": _vm.iconStyle,
+        "theme": _vm.theme,
+        "fontSize": _vm.fontSize,
+        "lineHeight": _vm.lineHeight,
+        "iconColor": _vm.iconColors,
+        "isLast": index === _vm.items.length - 1,
+        "hasSiblings": item.hasSiblings,
+        "stringAutoJson": _vm.stringAutoJson,
+        "parentKeys": item.positionKeys
+      },
+      scopedSlots: _vm._u([_vm._l(_vm.$scopedSlots, function (_, name) {
+        return {
+          key: name,
+          fn: function (data) {
+            return [_vm._t(name, null, null, data)];
+          }
+        };
+      })], null, true)
+    }) : _c('p', {
+      key: index,
+      staticClass: "json-item"
+    }, [_c('span', {
+      staticClass: "json-key"
+    }, [!_vm.isArray ? [_vm._v(" \""), _vm._t("key", function () {
+      return [_vm._v(_vm._s(item.key))];
+    }, {
+      "data": {
+        jsonKey: item.key,
+        positionKeys: item.positionKeys
+      }
+    }), _vm._v("\":  ")] : _vm._e()], 2), _c('span', {
+      class: ['json-value', _vm.getDataType(item.value)]
+    }, [_vm._v(" " + _vm._s(`${_vm.getDataType(item.value) === "string" ? '"' : ""}${_vm.formatValue(item.value)}${_vm.getDataType(item.value) === "string" ? '"' : ""}${index === _vm.items.length - 1 ? "" : ","}`) + " ")])])];
+  }), !_vm.innerclosed ? _c('span', {
+    staticClass: "base-line"
+  }) : _vm._e()], 2) : _vm._e(), !_vm.innerclosed ? _c('p', {
+    staticClass: "last-line"
+  }, [_c('span', [_vm._v(_vm._s(_vm.subfix))])]) : _vm._e()])])]) : _vm._e();
+};
+var JsonViewvue_type_template_id_8ed521fe_scoped_true_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./package/JsonView/src/JsonView.vue?vue&type=script&lang=js
+/* harmony default export */ var JsonViewvue_type_script_lang_js = ({
+  name: 'JsonViewV2',
+  props: {
+    data: {
+      // 传入的json数据
+      type: [Object, Array],
+      required: true
+    },
+    jsonKey: {
+      // json的key值，用于第二层及二层以上的组件的key值
+      type: String,
+      default: ''
+    },
+    closed: {
+      // 是否折叠
+      type: Boolean,
+      default: false
+    },
+    isLast: {
+      //是否是最后一行
+      type: Boolean,
+      default: true
+    },
+    fontSize: {
+      //字体大小
+      type: Number,
+      default: 14
+    },
+    lineHeight: {
+      //行高
+      type: Number,
+      default: 24
+    },
+    deep: {
+      // 展开深度
+      type: Number,
+      default: 3
+    },
+    currentDeep: {
+      // 当前为递归的第几层
+      type: Number,
+      default: 1
+    },
+    iconStyle: {
+      // 折叠icon样式
+      type: String,
+      default: 'square'
+    },
+    iconColor: {
+      //icon颜色
+      type: Array,
+      default() {
+        return [];
+      }
+    },
+    theme: {
+      // 主题
+      type: String,
+      default: ''
+    },
+    hasSiblings: {
+      // 是否有兄弟节点
+      type: Boolean,
+      default: true
+    },
+    parentKeys: {
+      type: Array,
+      default: () => []
+    },
+    stringAutoJson: {
+      // 是否将String类型转为JSON
+      type: Boolean,
+      default: false
+    }
+  },
+  data() {
+    return {
+      innerclosed: this.closed,
+      templateDeep: this.currentDeep,
+      visible: false
+    };
+  },
+  computed: {
+    isArray() {
+      return this.getDataType(this.data) === 'array';
+    },
+    length() {
+      return this.isArray ? this.data.length : Object.keys(this.data).length;
+    },
+    subfix() {
+      const data = this.data;
+      if (this.isEmptyArrayOrObject(data)) {
+        // 如果是空数组或空对象
+        return '';
+      } else {
+        return (this.isArray ? ']' : '}') + (this.isLast ? '' : ',');
+      }
+    },
+    prefix() {
+      return this.isArray ? '[' : '{';
+    },
+    items() {
+      const json = this.data;
+      if (this.isArray) {
+        return json.map(item => {
+          const isJSON = this.isObjectOrArray(item);
+          return {
+            value: item,
+            isJSON,
+            key: '',
+            positionKeys: [...this.parentKeys]
+          };
+        });
+      }
+      return Object.keys(json).map(key => {
+        let item = json[key];
+        let isJSON = this.isObjectOrArray(item);
+        if (this.stringAutoJson && !isJSON) {
+          try {
+            item = JSON.parse(item);
+          } catch (error) {
+            item = item;
+          }
+          isJSON = this.isObjectOrArray(item);
+        }
+        return {
+          value: item,
+          isJSON,
+          key,
+          positionKeys: [...this.parentKeys, key]
+        };
+      });
+    },
+    iconColors() {
+      const {
+        theme,
+        iconColor
+      } = this;
+      if (iconColor.length === 2) {
+        return iconColor;
+      } else {
+        if (theme === 'one-dark') {
+          return ['#747983', '#747983'];
+        } else if (theme === 'vs-code') {
+          return ['#c6c6c6', '#c6c6c6'];
+        } else {
+          return ['#747983', '#747983'];
+        }
+      }
+    }
+  },
+  mounted() {
+    console.log(this.$slots, this.$scopedSlots);
+    setTimeout(() => {
+      this.visible = true;
+    }, 0);
+  },
+  methods: {
+    formatValue(data) {
+      if (data && data._isBigNumber) {
+        return data.toString(10);
+      }
+      return data;
+    },
+    getDataType(data) {
+      return data && data._isBigNumber ? 'number' : Object.prototype.toString.call(data).slice(8, -1).toLowerCase();
+    },
+    isObjectOrArray(source) {
+      return ['array', 'object'].includes(this.getDataType(source));
+    },
+    toggleClose() {
+      if (this.length === 0) {
+        return;
+      }
+      if (this.innerclosed) {
+        this.innerclosed = false;
+      } else {
+        this.innerclosed = true;
+      }
+    },
+    isClose() {
+      return this.templateDeep + 1 > this.deep;
+    },
+    isEmptyArrayOrObject(data) {
+      // 空数组或者空对象
+      return [{}, []].map(item => JSON.stringify(item)).includes(JSON.stringify(data));
+    }
+  },
+  watch: {
+    closed() {
+      this.innerclosed = this.closed;
+    }
+  }
+});
+;// CONCATENATED MODULE: ./package/JsonView/src/JsonView.vue?vue&type=script&lang=js
+ /* harmony default export */ var src_JsonViewvue_type_script_lang_js = (JsonViewvue_type_script_lang_js); 
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-22.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./package/JsonView/src/JsonView.vue?vue&type=style&index=0&id=8ed521fe&prod&scoped=true&lang=scss
+// extracted by mini-css-extract-plugin
+
+;// CONCATENATED MODULE: ./package/JsonView/src/JsonView.vue?vue&type=style&index=0&id=8ed521fe&prod&scoped=true&lang=scss
+
+;// CONCATENATED MODULE: ./package/JsonView/src/JsonView.vue
+
+
+
+;
+
+
+/* normalize component */
+
+var JsonView_component = componentNormalizer_normalizeComponent(
+  src_JsonViewvue_type_script_lang_js,
+  JsonViewvue_type_template_id_8ed521fe_scoped_true_render,
+  JsonViewvue_type_template_id_8ed521fe_scoped_true_staticRenderFns,
+  false,
+  null,
+  "8ed521fe",
+  null
+  
+)
+
+/* harmony default export */ var JsonView = (JsonView_component.exports);
+;// CONCATENATED MODULE: ./package/JsonView/index.js
+
+/* harmony default export */ var package_JsonView = (JsonView);
 ;// CONCATENATED MODULE: ./package/index.js
 
 
 
-const virtualComponentV2 = [VSelect, VList, VTree];
+
+const virtualComponentV2 = [VSelect, VList, VTree, package_JsonView];
 const package_install = Vue => {
   virtualComponentV2.forEach(comp => {
     Vue.component(comp.name, comp);
@@ -42712,7 +43134,8 @@ if (typeof window !== "undefined" && window.Vue) {
   install: package_install,
   ElSelectV2: VSelect,
   ElListV2: VList,
-  ElTreeV2: VTree
+  ElTreeV2: VTree,
+  JsonView: package_JsonView
 });
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
