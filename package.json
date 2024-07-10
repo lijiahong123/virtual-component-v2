@@ -2,7 +2,7 @@
   "name": "virtual-component-v2",
   "version": "0.1.2",
   "main": "./dist/virtualComponentV2.umd.min.js",
-  "description": "依赖于Element-ui的Vue2虚拟组件, 包含 el-tree-v2, el-select-v2, el-list-v2三个虚拟组件, 其中 el-tree-v2, el-select-v2 完全支持element-ui tree组件与 select组件的所有属性",
+  "description": "依赖于Element-ui的Vue2虚拟组件, 包含 el-tree-v2, el-select-v2, el-list-v2三个虚拟组件，以及json预览组件, 其中 el-tree-v2, el-select-v2 完全支持element-ui tree组件与 select组件的所有属性",
   "keywords": [
     "vue虚拟树",
     "vue虚拟列表",
@@ -14,7 +14,11 @@
     "virtual-tree",
     "el-tree-v2",
     "el-select-v2",
-    "el-list-v2"
+    "el-list-v2",
+    "vue-json-view",
+    "json-view",
+    "json-tree",
+    "vue2-json-view"
   ],
   "author": "lijiahong123",
   "license": "MIT",
@@ -44,7 +48,6 @@
     "lodash": "^4.17.21",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
-    "virtual-component-v2": "^0.1.1",
     "vue": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "vue-virtual-scroller": "^1.1.2"

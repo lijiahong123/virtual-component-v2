@@ -1,0 +1,55 @@
+{
+    "app": {
+        "bundle": "weather",
+        "id": "207835_207846",
+        "keywords": "天气",
+        "name": "天气124",
+        "paid": 0,
+        "ver": ""
+    },
+    "at": 1,
+    "device": {
+        "boot_mark": "ff778f02-f29f",
+        "connectiontype": 2,
+        "devicetype": 1,
+        "h": 100,
+        "ip": "192.168.1.1",
+        "js": 0,
+        "make": "abch",
+        "model": "sdfre",
+        "oaId": "7C477D4D98DF4EA89735908C4544C4C6b93077a59f3b1208cc58e3d1851cd118",
+        "oaIdMd5": "9f36184f7d4fad60dda29541a2bd3c49",
+        "os": "Android",
+        "osv": "13",
+        "ua": "Dalvik/2.1.0 (Linux; U; Android 13; PEMM00 Build/TP1A.220905.001)",
+        "update_mark": "17786.893015301",
+        "w": 720
+    },
+    "hitStrategys": [],
+    "id": "8426523d048e72c0",
+    "imp": [
+        {
+            "appDownloadType": 0,
+            "appMinVersionCode": 0,
+            "bidfloor": 100,
+            "bitWiseCnt": 0,
+            "costTypes": [
+                4
+            ],
+            "id": "d27456bf6235317a3",
+            "impType": 322222222222,
+            "pmp": {
+                "deals": "[{\"bidfloor\":2100,\"exemptTrial\":1,\"id\":\"18348\"}]",
+                "pmpType": 2
+            },
+            "queryWord": "",
+            "tagid": "9106"
+        }
+    ],
+    "impType": 32,
+    "test": 0,
+    "tmax": 143,
+    "user": {
+        "id": "994018200e3cfd"
+    }
+}
