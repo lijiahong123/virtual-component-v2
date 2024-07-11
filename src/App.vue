@@ -1,16 +1,12 @@
 <template>
   <div id="app">
-    <div class="block-1">
-      <!-- list -->
-      <list />
-      <!-- select -->
-      <select-v2 />
-      <!-- tree -->
-      <treeV2 />
-    </div>
-    <div class="block-2">
-      <jsonViews />
-    </div>
+    <!-- list -->
+    <list />
+    <!-- select -->
+    <select-v2 />
+    <!-- tree -->
+    <treeV2 />
+    <jsonViews />
 
   </div>
 </template>
@@ -30,8 +26,13 @@ export default {
 </script>
 
 <style lang="scss">
+#app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .item-box {
-  width: 300px;
+  width: 240px;
   height: 400px;
   border: 1px solid #000;
   border-radius: 4px;
@@ -43,5 +44,4 @@ export default {
 .block-1 {
   display: flex;
 }
-
 </style>

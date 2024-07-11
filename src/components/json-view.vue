@@ -2,7 +2,6 @@
     <div id="container">
         <div class="layout">
             <div>
-                <h1>vue-json-view</h1>
                 <div class="setting">
                     <ul>
                         <li>
@@ -98,10 +97,10 @@ export default {
 
 <style scoped lang="scss">
 #container {
+    flex: 1;
     .layout {
-        width: 90%;
-        margin: 10px;
-
+        margin-left: 10px;
+        margin-top: 10px;
         h1 {
             font-size: 26px;
             font-weight: 400;
@@ -136,7 +135,8 @@ export default {
             padding: 0;
             margin: 0;
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;
+            align-content: center;
 
             li {
                 display: flex;
@@ -160,7 +160,7 @@ export default {
         }
 
         .content {
-            height: calc(100vh - 117px);
+            height: 50vh;
             overflow: auto;
             border: 1px solid #ccc;
             border-top: none;
