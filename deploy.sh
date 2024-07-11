@@ -23,4 +23,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 git push -f git@github.com:lijiahong123/virtual-component-v2.git master:gh-pages
 
+cd ..
+rm -rf example
 cd -
