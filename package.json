@@ -34,6 +34,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --dest example",
+    "pages":"deploy.sh",
     "lib": "vue-cli-service build --target lib --name virtualComponentV2 ./package/index.js"
   },
   "peerDependencies": {

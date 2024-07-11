@@ -2,6 +2,9 @@
 
 依赖于`Element-ui`的 Vue2 虚拟组件, 包含 `el-tree-v2`, `el-select-v2`, `el-list-v2`三个虚拟组件, 其中 `el-tree-v2`, `el-select-v2` 完全支持`element-ui` tree 组件与 select 组件的所有属性
 
+[在线预览](https://lijiahong123.github.io/virtual-component-v2/)
+
+
 ## Install
 
 ```bash
