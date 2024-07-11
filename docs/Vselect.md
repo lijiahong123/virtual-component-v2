@@ -2,6 +2,9 @@
 
 用于长下拉列表渲染, 例如接口一次返回了很多下拉选项列表数据的场景
 
+
+[**在线预览**](https://lijiahong123.github.io/virtual-component-v2/)
+
 **注意**
 
 - `el-select-v2`与`el-select`拥有完全一致的属性与api

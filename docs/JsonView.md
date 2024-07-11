@@ -1,6 +1,10 @@
 # json-view-v2
 
+[**在线预览**](https://lijiahong123.github.io/virtual-component-v2/)
+
 自定义 JsonKey 功能预览
+
+
 ![](./static/json-view-v2.gif)
 
 vue2.x 版本 用于展示 JSON 的 vue 插件

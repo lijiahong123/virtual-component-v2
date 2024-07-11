@@ -2,6 +2,9 @@
 
 用于长列表渲染, 例如接口一次返回了所有列表数据的场景
 
+
+[**在线预览**](https://lijiahong123.github.io/virtual-component-v2/)
+
 **注意:**
 需要给`el-list-v2`组件的包裹容器一个确切的`height`属性, 否则虚拟滚动功能会失效, 示例见基础用法
 

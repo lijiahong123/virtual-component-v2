@@ -2,6 +2,9 @@
 
 用于多节点tree型数据渲染
 
+
+[**在线预览**](https://lijiahong123.github.io/virtual-component-v2/)
+
 > 支持`el-tree`组件的`100%`的属性与方法, `Attribute`与`slot` `methods`都与`el-tree`一致, 有一些属性不支持, 也有新加的属性与方法, 具体见 `Attribute` 与 `方法` 表
 
 **特别提示**
