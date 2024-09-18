@@ -1,6 +1,6 @@
 <template>
     <div>
-        select
+        <h2>el-select-v2 示例</h2>
         <div class="item-box">
             <el-select-v2 clearable filterable multiple collapse-tags v-model="value" :options="options"
                 placeholder="请选择" keyField="id" label-field="name"></el-select-v2>

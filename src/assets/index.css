@@ -1,0 +1,11 @@
+ul,ol,dl {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+.item-box {
+    width: 100%;
+}

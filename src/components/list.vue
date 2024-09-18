@@ -1,6 +1,6 @@
 <template>
   <div>
-    list
+    <h2>el-list-v2 示例</h2>
     <div class="item-box">
       <el-list-v2 :list="dataList" key-field="id" label-field="name"></el-list-v2>
     </div>

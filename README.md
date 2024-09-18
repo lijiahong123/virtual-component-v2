@@ -37,3 +37,4 @@ Vue.use(virtualComponentV2);
 - [虚拟下拉框(el-select-v2)](./docs/Vselect.md).
 - [虚拟树(el-tree-v2)](./docs/Vtree.md).
 - [JSON 预览(json-view-v2)](./docs/JsonView.md).
+- [自动响应式布局(auto-grid)](./docs/AutoGrid.md).

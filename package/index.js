@@ -2,8 +2,9 @@ import ElSelectV2 from "./VSelect/index";
 import ElListV2 from "./VList/index";
 import ElTreeV2 from "./VTree/index";
 import JsonView from "./JsonView/index";
+import AutoGrid from "./AutoGrid/index";
 
-const virtualComponentV2 = [ElSelectV2, ElListV2, ElTreeV2, JsonView];
+const virtualComponentV2 = [ElSelectV2, ElListV2, ElTreeV2, JsonView, AutoGrid];
 
 const install = (Vue) => {
   virtualComponentV2.forEach((comp) => {
@@ -22,4 +23,5 @@ export default {
   ElListV2,
   ElTreeV2,
   JsonView,
+  AutoGrid,
 };

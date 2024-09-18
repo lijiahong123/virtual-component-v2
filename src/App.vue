@@ -1,12 +1,16 @@
 <template>
-  <div id="app">
-    <!-- list -->
-    <list />
-    <!-- select -->
-    <select-v2 />
-    <!-- tree -->
-    <treeV2 />
-    <jsonViews />
+  <div>
+    <AutoGrid :xl="6">
+      <list />
+      <select-v2 />
+      <treeV2 />
+    </AutoGrid>
+    <AutoGrid :sm="24" :md="24" :lg="24" :xl="24">
+      <AutoGridDemo />
+    </AutoGrid>
+    <AutoGrid :sm="24" :md="24" :lg="24" :xl="24">
+      <jsonViews />
+    </AutoGrid>
 
   </div>
 </template>
@@ -16,8 +20,9 @@ import list from '@/components/list.vue'
 import selectV2 from '@/components/select.vue'
 import treeV2 from '@/components/tree.vue'
 import jsonViews from '@/components/json-view.vue';
+import AutoGridDemo from '@/components/auto-grid.vue';
 export default {
-  components: { list, selectV2, treeV2, jsonViews },
+  components: { list, selectV2, treeV2, jsonViews, AutoGridDemo },
   name: 'App',
   data() {
     return {}

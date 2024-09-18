@@ -1,8 +1,8 @@
 {
   "name": "virtual-component-v2",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "./dist/virtualComponentV2.umd.min.js",
-  "description": "依赖于Element-ui的Vue2虚拟组件, 包含 el-tree-v2, el-select-v2, el-list-v2三个虚拟组件，以及json预览组件, 其中 el-tree-v2, el-select-v2 完全支持element-ui tree组件与 select组件的所有属性",
+  "description": "依赖于Element-ui的Vue2虚拟组件, 包含 el-tree-v2, el-select-v2, el-list-v2三个虚拟组件，以及json预览组件,响应式布局组件, 其中 el-tree-v2, el-select-v2 完全支持element-ui tree组件与 select组件的所有属性",
   "keywords": [
     "vue虚拟树",
     "vue虚拟列表",
@@ -10,6 +10,7 @@
     "虚拟滚动",
     "虚拟树",
     "虚拟组件",
+    "自动响应式布局",
     "virtualComponentV2",
     "virtual-tree",
     "el-tree-v2",
@@ -18,7 +19,8 @@
     "vue-json-view",
     "json-view",
     "json-tree",
-    "vue2-json-view"
+    "vue2-json-view",
+    "AutoGrid"
   ],
   "author": "lijiahong123",
   "license": "MIT",

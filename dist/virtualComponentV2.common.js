@@ -38327,6 +38327,8 @@ __webpack_require__.d(__webpack_exports__, {
   "default": function() { return /* binding */ entry_lib; }
 });
 
+// UNUSED EXPORTS: AutoGrid, ElListV2, ElSelectV2, ElTreeV2, JsonView
+
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 /* eslint-disable no-var */
 // This file is imported into lib/wc client bundles.
@@ -43114,12 +43116,135 @@ var JsonView_component = componentNormalizer_normalizeComponent(
 ;// CONCATENATED MODULE: ./package/JsonView/index.js
 
 /* harmony default export */ var package_JsonView = (JsonView);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./package/AutoGrid/src/index.vue?vue&type=script&lang=js
+
+
+/* harmony default export */ var srcvue_type_script_lang_js = ({
+  name: 'AutoGrid',
+  components: {
+    'el-col': element_ui_common.Col,
+    'el-row': element_ui_common.Row
+  },
+  props: {
+    xs: {
+      type: Number,
+      default: 24
+    },
+    sm: {
+      type: Number,
+      default: 12
+    },
+    md: {
+      type: Number,
+      default: 8
+    },
+    lg: {
+      type: Number,
+      default: 6
+    },
+    xl: {
+      type: Number,
+      default: 4
+    },
+    gutter: {
+      type: Number,
+      default: 20
+    }
+  },
+  methods: {
+    createTargetChildVNode(h) {
+      const {
+        xs,
+        sm,
+        md,
+        lg,
+        xl
+      } = this.$props;
+      const tag = 'el-col';
+      const props = {
+        xs,
+        sm,
+        md,
+        lg,
+        xl
+      };
+      return this.$slots.default.map((VN, idx) => {
+        const style = {
+          paddingTop: '5px',
+          paddingBottom: '5px'
+        };
+        if (!VN.tag) return VN;
+        if (!VN.data) {
+          VN.data = {};
+        }
+        VN.data.staticStyle = {
+          ...(VN.data.staticStyle || {}),
+          width: '100%'
+        };
+        // 日期时间选择框样式与其他样式不一样
+        // if (VN.tag.endsWith('ElDatePicker')) {
+        //     style.paddingTop = '10px';
+        //     style.paddingBottom = 0;
+        // }
+        return h(tag, {
+          props,
+          style,
+          key: idx
+        }, [VN]);
+      });
+    }
+  },
+  render(h) {
+    const {
+      gutter
+    } = this.$props;
+    const children = [h('el-row', {
+      props: {
+        gutter
+      }
+    }, this.createTargetChildVNode(h))];
+    if (this.$slots.footer) {
+      children.push(...this.$slots.footer);
+    }
+    return h('div', {
+      style: {
+        paddingBottom: '10px'
+      }
+    }, children);
+  }
+});
+;// CONCATENATED MODULE: ./package/AutoGrid/src/index.vue?vue&type=script&lang=js
+ /* harmony default export */ var AutoGrid_srcvue_type_script_lang_js = (srcvue_type_script_lang_js); 
+;// CONCATENATED MODULE: ./package/AutoGrid/src/index.vue
+var src_render, src_staticRenderFns
+;
+
+
+
+/* normalize component */
+;
+var src_component = componentNormalizer_normalizeComponent(
+  AutoGrid_srcvue_type_script_lang_js,
+  src_render,
+  src_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var AutoGrid_src = (src_component.exports);
+;// CONCATENATED MODULE: ./package/AutoGrid/index.js
+
+/* harmony default export */ var AutoGrid = (AutoGrid_src);
 ;// CONCATENATED MODULE: ./package/index.js
 
 
 
 
-const virtualComponentV2 = [VSelect, VList, VTree, package_JsonView];
+
+const virtualComponentV2 = [VSelect, VList, VTree, package_JsonView, AutoGrid];
 const package_install = Vue => {
   virtualComponentV2.forEach(comp => {
     Vue.component(comp.name, comp);
@@ -43135,8 +43260,10 @@ if (typeof window !== "undefined" && window.Vue) {
   ElSelectV2: VSelect,
   ElListV2: VList,
   ElTreeV2: VTree,
-  JsonView: package_JsonView
+  JsonView: package_JsonView,
+  AutoGrid: AutoGrid
 });
+
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 

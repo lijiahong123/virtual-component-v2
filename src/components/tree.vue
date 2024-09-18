@@ -1,6 +1,7 @@
 <template>
     <div>
-        tree, 共有节点数量  {{ treeNodeCount }} 个
+        <h2>el-tree-v2 示例 <span>共{{ treeNodeCount }} 个节点</span></h2>
+
         <div class="item-box">
             <el-tree-v2 default-expand-all node-key="id" :props="props" show-checkbox :data="dataList"></el-tree-v2>
         </div>
@@ -81,4 +82,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+h2 span {
+    font-weight: normal;
+    font-size: 14px;
+}
+</style>
